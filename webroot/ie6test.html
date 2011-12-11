@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            _display: inline;
+        }
+
+        li a {
+            background: red;
+            border: 1px solid #ccc;
+            display: block;
+            /*zoom:1;*/
+        }
+
+        li a:hover {
+            background: blue;
+        }
+
+        .outer {
+            width: 315px;
+            height: 400px;
+            background: green;
+            position: relative;
+        }
+
+        .inner {
+            width: 200px;
+            height: 203px;
+            background: yellow;
+            position: absolute;
+            top: 0;
+            right: 0;
+            _right: -1px;
+        }
+
+        .a {
+
+            color: yellow;
+            color: green !important;
+        }
+    </style>
+</head>
+<body>
+<!--<div id="first" style="width: 200px;height: 200px;background: red;float: left;"></div>-->
+<!--<div id="second" style="width: 200px;height: 200px;background: green;"></div>-->
+
+<ul>
+    <li><a href="#">第1条连接</a></li>
+    <li><a href="#">第2条连接</a></li>
+    <li><a href="#">第3条连接</a></li>
+</ul>
+<div class="outer">
+    <div class="inner"></div>
+</div>
+<div class="a" style="color: red;">
+    this is a important test.
+</div>
+
+<div style="width:300px; margin:20px; border:1px solid #000; overflow:hidden;">
+    <div style="background:green; width:10px; float:left; height:300px;display: inline;"></div>
+    <div style="background:red; float:left; height:300px; width:280px;"></div>
+    <div style="display: none;"></div>
+    <div style="background:green; width:10px; float:left; height:300px;">a</div>
+</div>
+
+</body>
+</html>

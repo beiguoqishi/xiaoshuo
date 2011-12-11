@@ -1,0 +1,347 @@
+/*begin wrapper*/
+.wrapper {
+    width: 960px;
+    margin: 20px auto 0;
+    /*overflow: hidden;*/
+}
+
+/*end wrapper*/
+
+/*begin content*/
+.content {
+    width: 756px;
+    float: left;
+    border-right: 1px solid #d7f0d2;
+}
+
+/*end content*/
+/*begin titlebar*/
+.titlebar {
+    background: url("../images/xs.png") repeat-x 0 -7px;
+    width: 756px;
+}
+
+.titlebar .titlebar-logo {
+    float: left;
+    margin-left: 12px;
+    background: url("../images/xs.png") no-repeat 0 -50px;
+    width: 108px;
+    height: 34px;
+}
+
+.titlebar .titlebar-desc {
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    font-family: '宋体';
+    margin-top: 8px;
+}
+
+.titlebar .highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/*end titlebar*/
+
+/*begin filters*/
+dl.filters {
+    clear: both;
+    float: left;
+    width: 748px;
+    background: #fafafa;
+    margin-top: 20px;
+}
+
+dl.filters h4 {
+    font: bold 14px/1.5 SimSun;
+}
+
+dl.filters dt {
+    clear: both;
+    float: left;
+    padding-top: 10px;
+    width: 60px;
+    padding-left: 20px;
+    color: #969696;
+}
+
+dl.filters dd {
+    float: left;
+    width: 668px;
+    margin-top: 10px;
+}
+
+dl.filters dd span.filter-item {
+    float: left;
+    width: 60px;
+    padding-bottom: 5px;
+}
+
+dl.filters dd span.filter-item a {
+    color: #333;
+    padding: 3px 4px;
+    *padding: 1px 4px; /*ie6有问题*/
+}
+
+dl.filters dd span.filter-item a.filter-cur {
+    border: 1px solid #b5d3af;
+    background: #def2d5;
+    color: #999999;
+}
+
+dl.filters dd span.filter-item a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+dl.filters dd span.filter-item a.filter-cur {
+    cursor: default;
+    color: #999999;
+    text-decoration: none;
+}
+
+/*end filters*/
+
+/*begin list_item*/
+span.list-item {
+    display: block;
+    float: left;
+    width: 378px;
+    position: relative;
+    margin: 20px 0;
+    /*padding-right: 28px;*/
+}
+
+.list-item .poster {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.list-item .poster .status-bar {
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    *filter: alpha(opacity = 60);
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.list-item .poster .status-text {
+    position: absolute;
+    z-index: 1;
+    left: 11px;
+    bottom: 1px;
+    color: white;
+}
+
+.list-item .poster:hover {
+    text-decoration: none;
+}
+
+.list-item .book-info {
+    float: left;
+    padding-left: 13px;
+    width: 216px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.list-item .book-info h3 {
+    padding-bottom: 10px;
+}
+
+.list-item .book-info .title-link {
+    font: 14px "宋体", SimSun, monospace;
+}
+
+.list-item .book-info dl {
+    font-size: 12px;
+}
+
+.list-item .book-info p {
+    margin-top: 10px;
+}
+
+.list-item .book-info .item-key {
+    color: #999999;
+    clear: both;
+    float: left;
+    display: block;
+    text-align: left;
+    line-height: 2;
+}
+
+.list-item .book-info .item-value {
+    color: #666666;
+    float: left;
+    max-width: 178px;
+    line-height: 2;
+}
+
+.list-item .book-info .book-desc {
+    line-height: 1.7;
+}
+
+span.hr {
+    clear: both;
+    width: 724px;
+    display: block;
+    height: 1px;
+    border-top: 1px dotted #dcdcdc;
+}
+
+/*ie6清除浮动*/
+dd.hr {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*end list_item*/
+
+/*begin sidebar*/
+.sidebar {
+    width: 196px;
+    float: left;
+    margin-left: 7px;
+}
+
+/*begin history*/
+.sidebar .history {
+    width: 174px;
+    border: 1px solid #daeadf;
+    padding: 10px;
+    background-color: #eff8ed;
+}
+
+.sidebar .history h4 {
+    *float: left;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.sidebar .history .history-tip {
+    display: inline-block;
+    width: 85px;
+    /*_cursor: pointer;*/
+}
+
+.sidebar .history .history-switch {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    background: url("../images/p_spr.png") no-repeat;
+}
+
+.sidebar .history .history-collapse {
+    background-position: -18px 0;
+    *margin-left: -6px;
+    /*郁闷之处*/
+}
+
+.sidebar .history .history-expand {
+    background-position: 0 0;
+}
+
+.sidebar .history ul.history-list {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.sidebar .history ul.history-list li.history-item {
+    margin-bottom: 5px;
+}
+
+.sidebar .history ul.history-list li.history-item span.history-index {
+    display: inline-block;
+    width: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.sidebar .history ul.history-list li.history-item a.history-title {
+    margin-left: 8px;
+    display: inline-block;
+    width: 120px;
+}
+
+.sidebar .history ul.history-list li.history-item a.delete-history {
+    background: url("../images/p_spr.png") no-repeat -80px -3px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.sidebar .history ul.history-list li.history-item a.delete-history:hover {
+    background: url("../images/p_spr.png") no-repeat -40px -3px;
+}
+
+/*end history*/
+.recommends {
+    width: 196px;
+}
+
+.recommends .recommend-type {
+    margin-top: 19px;
+    border-top: 1px solid #d5eed0;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.recommends .recommend-type h2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 21px;
+    overflow: hidden;
+}
+
+.recommends .recommend-type h2.recommend-frees-title {
+    background: url("../images/xs.png") no-repeat 10px -87px;
+}
+
+.recommends .recommend-type h2.recommend-ends-title {
+    background: url("../images/xs.png") no-repeat 10px -112px;
+}
+
+.recommends .recommend-type h2.recommend-girls-title {
+    background: url("../images/xs.png") no-repeat 10px -135px;
+}
+
+.recommends .recommend-type ul {
+    margin-top: 13px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
+
+.recommends .recommend-type ul li.recommend-item {
+    padding: 2px 0;
+}
+
+.recommends .recommend-type ul li.recommend-item .recommend-item-index {
+    text-align: right;
+    width: 15px;
+    display: inline-block;
+    font-weight: bold;
+    color: #555555;
+}
+
+.recommends .recommend-type ul li.recommend-item .recommend-item-type {
+    padding: 0 10px 0 5px;
+}
+
+/*end sidebar*/

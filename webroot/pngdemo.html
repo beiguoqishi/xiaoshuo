@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>IE6支持png8的索引色透明度 - IE6支持PNG透明(alpha通道)的4种方法</title>
+
+    <style type="text/css">
+        body {
+            background: url(images/checkerboard.gif)
+        }
+
+        ol, p, h3 {
+            clear: both;
+        }
+
+        .background li {
+            float: left;
+            border: 1px solid #000;
+            list-style: none;
+            margin: 2px;
+            width: 234px;
+            height: 234px;
+        }
+
+        .background_shadow {
+            background: url(images/shadow-trans.png);
+        }
+
+        *html .background_shadow {
+            background: transparent;
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = 'images/shadow-trans.png', sizingMethod = 'scale')
+
+        }
+
+        .background_opacity {
+            background: url(images/opacity-trans.png);
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = 'images/opacity-trans.png', sizingMethod = 'scale')
+        }
+
+        .background_opacity2 {
+            background: url(images/opacity2-trans.png);
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = 'images/opacity2-trans.png', sizingMethod = 'scale')
+        }
+    </style>
+</head>
+
+<body>
+<h1>IE6支持png8的索引色透明度 - IE6支持PNG透明(alpha通道)的4种方法</h1>
+
+<p>IE6与生俱来就支持png8的索引色透明度，但不支持png或8位以上的 alpha 透明度。而对于非动画的GIF建议你使用PNG8，因为体积会更小</p>
+
+<h2>以下为各PNG图片对IE6的测试</h2>
+<br/>
+
+
+<h3>以图片方式插入透明png</h3>
+<img src="images/opacity8.png"/>
+<img src="images/opacity24.png"/>
+<img src="images/opacity32.png"/>
+<br/>
+<img src="images/shadow-trans.png"/>
+<img src="images/opacity-trans.png"/>
+<img src="images/opacity2-trans.png"/>
+
+<h3>以CSS背景方式插入透明png</h3>
+<ol class="background">
+    <li class="background_shadow">png阴影</li>
+    <li class="background_opacity">png局部透明</li>
+    <li class="background_opacity2">png全透</li>
+</ol>
+
+
+<!--ad-->
+<div style="margin:0 auto; width:950px;"><span
+        style=" color:#FF0000; font-size:14px; font-weight:700">支持本站，请点击广告！</span>
+
+    <div style="float:left">
+        <script type="text/javascript"><!--
+        google_ad_client = "pub-1668200119690891";
+        /* 468x60, 创建于 08-9-10 */
+        google_ad_slot = "1858499609";
+        google_ad_width = 468;
+        google_ad_height = 60;
+        //-->
+        </script>
+        <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </div>
+    <div style="float:right">
+        <script type="text/javascript"><!--
+        google_ad_client = "pub-1668200119690891";
+        /* 468x60, 创建于 08-9-10 */
+        google_ad_slot = "5299970802";
+        google_ad_width = 468;
+        google_ad_height = 60;
+        //-->
+        </script>
+        <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </div>
+</div>
+<!--ad-->
+<!--以下脚本为统计-->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3448069-1");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+</script>
+</body>
+</html>
