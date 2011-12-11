@@ -6,8 +6,8 @@
     <%foreach $csses as $css%>
     <link rel="stylesheet" type="text/css" href="<%$css%>"/>
     <%/foreach%>
-<link rel="icon" type="image/ico" href="/static/favicon.ico"/>
-<link rel="shortcut icon" href="/static/favicon.ico"/>
+<link rel="icon" type="image/ico" href="static/favicon.ico"/>
+<link rel="shortcut icon" href="static/favicon.ico"/>
 <!--[if IE 6]>
 <script type="text/javascript">
 try{ document.execCommand("BackgroundImageCache",false,true) }catch(e){ }
