@@ -12,7 +12,7 @@ require_once(getcwd() . DIRECTORY_SEPARATOR . "smarty/Smarty.class.php");
 $smarty = new Smarty();
 $smarty->left_delimiter = '<%';
 $smarty->right_delimiter = '%>';
-$smarty->template_dir = 'template';
+$smarty->setTemplateDir('template');
 //$smarty->display("xs/index.tpl");
 require("data/data.php");
 show($smarty, "xs/search_result_index.tpl", $arr);
