@@ -10,7 +10,7 @@
                                     <a href="<%$fav_link%>" target="_blank"><%$fav_link@key%></a>
                         </span>
                     <%/foreach%>
-                    <span class="align-right">
+                    <span class="align-right ie6nimei">
                                     <a class="operation-favsites collapse-sites"
                                        id="favsites_switch" status='collapse'
                                        href="javascript:return false;">¸ü¶à</a>

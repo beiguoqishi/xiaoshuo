@@ -254,6 +254,7 @@ ul.search-text li a:hover {
     font-size: 14px;
     font-family: "ËÎÌו", Tahoma, Arail;
     overflow: auto;
+    position: relative;
 }
 
 .favsites dt.fav-title {
@@ -296,9 +297,12 @@ ul.search-text li a:hover {
     border: 1px solid #D4F0D2;
     padding: 0 0 0 23px;
     display: block;
-    background-color: #FCFDFA;
+    background: #FCFDFA url("../images/base_sprite.png") no-repeat;
     width: 54px;
-    background: url("../images/base_sprite.png") no-repeat;
+}
+
+.ie6nimei {
+    _position: absolute;
 }
 
 .favsites dd.fav-links a.expand-sites {

@@ -224,9 +224,6 @@
         }
     };
 
-    function XS() {
-    }
-
     var XS = {
         /**
          * 控制小说名站的扩展与折叠
@@ -237,8 +234,12 @@
         showClass:'show',
         hiddenClass:'hidden',
         historyList:$('history_list'),
-        favsiteSpans:slice.call($('favsites').getElementsByTagName('span'), 13),
         init:function () {
+            this.favsiteSpans = [];
+            var array = $('favsites').getElementsByTagName('span');
+            for (var i = 13, len = array.length; i < len; i++) {
+                this.favsiteSpans.push(array[i]);
+            }
             this.searchItemSwitch();
             this.favsitesSwitch();
             this.initHistoryEvent();
@@ -248,8 +249,7 @@
             this.initPageGoEvent();
         },
         favsitesSwitch:function () {
-            var favsitesDiv = $('favsites'),
-                favsitesSwitch = $('favsites_switch'),
+            var favsitesSwitch = $('favsites_switch'),
                 that = this;
 
             addEventListener(favsitesSwitch, 'click', bind(function (event) {
@@ -261,6 +261,7 @@
                     toggle(favsitesSwitch, 'collapse-sites', 'expand-sites');
                     favsitesSwitch.setAttribute('status', 'expanded');
                     favsitesSwitch.innerHTML = '收起';
+                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/ie6nimei/g,'');
                 } else {
                     Arr.forEach(this.favsiteSpans, function (item) {
                         toggle(item, that.showReg, that.hiddenClass);
@@ -268,6 +269,7 @@
                     toggle(favsitesSwitch, 'expand-sites', 'collapse-sites');
                     favsitesSwitch.setAttribute('status', 'collapse');
                     favsitesSwitch.innerHTML = '更多';
+                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/^\s+|\s+$/g,'') + ' ie6nimei';
                 }
                 preventDefault(getEvent(event));
             }, that), false);
