@@ -288,18 +288,18 @@ ul.search-text li a:hover {
 
 .favsites dd.fav-links a.operation-favsites {
     border: 1px solid #D4F0D2;
-    padding: 0 0 0 6px;
+    padding: 0 0 0 23px;
     display: block;
     background-color: #FCFDFA;
-    width: 85px;
+    width: 54px;
 }
 
 .favsites dd.fav-links a.expand-sites {
-    background: url("../images/base_sprite.png") no-repeat 70px -671px;
+    background: url("../images/base_sprite.png") no-repeat 55px -671px;
 }
 
 .favsites dd.fav-links a.collapse-sites {
-    background: url("../images/base_sprite.png") no-repeat 70px -702px;
+    background: url("../images/base_sprite.png") no-repeat 55px -702px;
 }
 
 .favsites dd.fav-links span.clear-padding {

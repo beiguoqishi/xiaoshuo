@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="ad02967b-b52a-4857-8b10-64b51a828959" name="Default" comment="" />
-    <list default="true" id="cd5d246e-a7a5-4314-b7b9-47953c35f2ef" name="ignore" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/06d8bb73a25ab236a25e8ee51651256ad838a673.file.index.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/07fefa25497874b5ec1b08efac09f97f1b9abedc.file.titlebar.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/1bded85b5f48d989bb9c5d370e525ba45f2a6628.file.search_result_titlebar.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/45ce9a56b0860657b039911ed8f4493969fc28f9.file.module.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/4816fa3fe8943786ef9d6707cc934df7414fe11a.file.sidebar.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/50f78556bc4b2ec3ba740377fc8b8089853f201b.file.xsjs.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/51e672caa663de32867b55b9082ae1e22ac95089.file.list_item.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/7bff47dca8466c435649f291bf9b1515278b1978.file.banner.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/80382eed6b6075d319db3ec01b7b1da7bf2ac2e6.file.history.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/8277c46cbfb1c0c3bc3c70e5e857d4bd182d040c.file.footer.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/8d873ab467873f91c20d79abe2baf71aeea5b658.file.filters.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/b241c18edc5c81fe968455e5196841e30d7f0084.file.search_result_banner.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/cb930795603de9b926ab11ca63b511f9d05cf558.file.content.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/cc7c3d82679bd3beea57ee6909895000295b739f.file.search_result_index.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/d3e68ab68b43d8bf1b58053209738b5108f6a9e0.file.favsites.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/dd6b71fbd1ffe095852b45866805ba992a091608.file.search_result_content.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/dff07a2454f4e5c9f8ddba5109d40b0bfd7262cd.file.page.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/f879686d00e4c477f34a85656e48f225fd0fe4a1.file.head.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/template/public/head.tpl" afterPath="$PROJECT_DIR$/webroot/template/public/head.tpl" />
+    <list id="50f16cd6-df54-4106-8c22-a1635344f097" name="Default" comment="" />
+    <list default="true" id="d662a0ac-0f8c-4567-bdbb-de0c67a01b2b" name="New changelist" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/data/data.php" afterPath="$PROJECT_DIR$/webroot/data/data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/static/public/css/common.css" afterPath="$PROJECT_DIR$/webroot/static/public/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/static/xs/js/xs.js" afterPath="$PROJECT_DIR$/webroot/static/xs/js/xs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/template/public/favsites.tpl" afterPath="$PROJECT_DIR$/webroot/template/public/favsites.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/template/xs/filters.tpl" afterPath="$PROJECT_DIR$/webroot/template/xs/filters.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/template/xs/list_item.tpl" afterPath="$PROJECT_DIR$/webroot/template/xs/list_item.tpl" />
     </list>
-    <ignored path="xs.iws" />
+    <ignored path="xiaoshuo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,74 +27,14 @@
     <disable_hints />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="xs" />
+    <favorites_list name="xiaoshuo" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search_result_index.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_index.tpl">
+      <file leaf-file-name="search_result.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/search_result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="607" selection-end="607" vertical-scroll-proportion="-10.857142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/template/public/page.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.107143">
-              <folding>
-                <marker date="1323591397431" expanded="true" signature="767:8981" placeholder="..." />
-                <marker date="1323591397431" expanded="true" signature="5856:5956" placeholder="..." />
-                <marker date="1323591397431" expanded="true" signature="8691:8791" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/template/public/footer.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_result_content.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_content.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-6.785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/data/data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webroot/template/public/head.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44970414">
-              <folding>
-                <marker date="1323593611247" expanded="true" signature="536:620" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/template/xs/content.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="570" selection-end="570" vertical-scroll-proportion="-6.964286">
+            <state line="14" column="36" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,25 +43,79 @@
       <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/template/xs/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="760" selection-end="768" vertical-scroll-proportion="-9.107142">
+            <state line="30" column="7" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-16.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_result_common.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/static/public/css/search_result_common.css">
+      <file leaf-file-name="content.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/template/xs/content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="21" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+            <state line="2" column="53" selection-start="158" selection-end="158" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_result.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/static/xs/css/search_result.css">
+      <file leaf-file-name="filters.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/template/xs/filters.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="1" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
+            <state line="13" column="38" selection-start="591" selection-end="591" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/data/data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favsites.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/template/public/favsites.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.75482625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xs.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/static/xs/css/xs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="237" column="13" selection-start="3754" selection-end="3754" vertical-scroll-proportion="-7.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/static/public/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="301" column="61" selection-start="5330" selection-end="5330" vertical-scroll-proportion="-12.52">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/template/xs/list_item.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/static/xs/js/xs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="344" column="46" selection-start="13653" selection-end="13653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,26 +131,23 @@
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webroot/template/xs/sidebar.tpl" />
-        <option value="$PROJECT_DIR$/webroot/template/xs/titlebar.tpl" />
-        <option value="$PROJECT_DIR$/test.css" />
-        <option value="$PROJECT_DIR$/webroot/template/public/search_result_banner.tpl" />
-        <option value="$PROJECT_DIR$/webroot/template/public/search_result_titlebar.tpl" />
         <option value="$PROJECT_DIR$/webroot/search_result.php" />
-        <option value="$PROJECT_DIR$/webroot/static/xs/css/xs.css" />
+        <option value="$PROJECT_DIR$/webroot/index.php" />
+        <option value="$PROJECT_DIR$/webroot/test.php" />
+        <option value="$PROJECT_DIR$/webroot/template/xs/list_item.tpl" />
+        <option value="$PROJECT_DIR$/webroot/static/xs/js/xs.js" />
+        <option value="$PROJECT_DIR$/webroot/template/xs/filters.tpl" />
+        <option value="$PROJECT_DIR$/webroot/template/public/favsites.tpl" />
         <option value="$PROJECT_DIR$/webroot/static/public/css/common.css" />
-        <option value="$PROJECT_DIR$/webroot/template/xs/search_result_banner.tpl" />
-        <option value="$PROJECT_DIR$/webroot/template/xs/search_result_titlebar.tpl" />
-        <option value="$PROJECT_DIR$/webroot/static/public/css/search_result_common.css" />
-        <option value="$PROJECT_DIR$/webroot/template/xs/search_result_index.tpl" />
-        <option value="$PROJECT_DIR$/webroot/template/public/footer.tpl" />
-        <option value="$PROJECT_DIR$/webroot/static/xs/css/search_result.css" />
-        <option value="$PROJECT_DIR$/webroot/template/xs/search_result_content.tpl" />
-        <option value="$PROJECT_DIR$/webroot/template/public/head.tpl" />
+        <option value="$PROJECT_DIR$/webroot/data/data.php" />
       </list>
     </option>
   </component>
@@ -178,17 +155,17 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -211,27 +188,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -241,11 +218,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -256,14 +233,18 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -281,11 +262,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,11 +280,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -321,11 +302,63 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xs" />
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="xs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -338,6 +371,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaoshuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,37 +424,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="107" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="97" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.smarty" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="107" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="897" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="900" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="104" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="104" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PHPProjects\xs\webroot\static\public\images" />
-      <recent name="E:\PHPProjects\xs\webroot\template\public" />
-      <recent name="E:\PHPProjects\xs\webroot\smarty\sysplugins" />
-      <recent name="E:\PHPProjects\xs\webroot\static" />
-      <recent name="E:\PHPProjects\xs\webroot\static\public\xs" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" scope="Directory">
@@ -393,7 +444,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
+        <option name="engineId" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -421,33 +472,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad02967b-b52a-4857-8b10-64b51a828959" name="Default" comment="" />
-      <changelist id="cd5d246e-a7a5-4314-b7b9-47953c35f2ef" name="ignore" comment="" />
-      <created>1323066637187</created>
-      <updated>1323591559422</updated>
+      <changelist id="d662a0ac-0f8c-4567-bdbb-de0c67a01b2b" name="New changelist" comment="" />
+      <changelist id="50f16cd6-df54-4106-8c22-a1635344f097" name="Default" comment="" />
+      <created>1323825040118</created>
+      <updated>1323825255338</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32678983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30357143" sideWeight="0.67045456" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16605392" sideWeight="0.67321014" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21672077" sideWeight="0.10551948" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -487,7 +538,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="小说两个静态页面完成。" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiu zheng php template dir warning." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -500,134 +551,99 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="小说两个静态页面完成。" />
+    <MESSAGE value="xiu zheng php template dir warning." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webroot/static/xs/js/xs.js">
+    <entry file="file://$PROJECT_DIR$/webroot/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="56" selection-start="15137" selection-end="15137" vertical-scroll-proportion="0.0">
+        <state line="20" column="1" selection-start="554" selection-end="554" vertical-scroll-proportion="0.615942" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/ie6test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/template/public/page.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_banner.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="96" selection-start="443" selection-end="443" vertical-scroll-proportion="-6.785714">
+        <state line="12" column="29" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/template/xs/list_item.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/xs/images/xs.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_titlebar.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/template/xs/filters.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="368" selection-end="368" vertical-scroll-proportion="-3.392857">
+        <state line="13" column="38" selection-start="591" selection-end="591" vertical-scroll-proportion="-6.5384617">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/xs/css/xs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="11" selection-start="1686" selection-end="3358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/public/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="426" column="20" selection-start="5714" selection-end="7393" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#167#0" expanded="false" />
-            <element signature="e#169#281#0" expanded="false" />
-            <element signature="e#283#319#0" expanded="false" />
-            <element signature="e#321#373#0" expanded="false" />
-            <element signature="e#375#439#0" expanded="false" />
-            <element signature="e#441#476#0" expanded="false" />
-            <element signature="e#478#591#0" expanded="false" />
-            <element signature="e#593#619#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/template/xs/content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="570" selection-end="570" vertical-scroll-proportion="-6.964286">
+        <state line="2" column="53" selection-start="158" selection-end="158" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/template/xs/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="760" selection-end="768" vertical-scroll-proportion="-9.107142">
+        <state line="30" column="7" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-16.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/public/page.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/search_result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.107143">
-          <folding>
-            <marker date="1323591397431" expanded="true" signature="767:8981" placeholder="..." />
-            <marker date="1323591397431" expanded="true" signature="5856:5956" placeholder="..." />
-            <marker date="1323591397431" expanded="true" signature="8691:8791" placeholder="..." />
-          </folding>
-        </state>
+        <state line="14" column="36" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/public/footer.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/static/xs/js/xs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
+        <state line="344" column="46" selection-start="13653" selection-end="13653" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/public/css/search_result_common.css">
+    <entry file="file://$PROJECT_DIR$/webroot/static/xs/css/xs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="21" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+        <state line="237" column="13" selection-start="3754" selection-end="3754" vertical-scroll-proportion="-7.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_index.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/static/public/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="607" selection-end="607" vertical-scroll-proportion="-10.857142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/xs/css/search_result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="1" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/xs/search_result_content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-6.785714">
+        <state line="301" column="61" selection-start="5330" selection-end="5330" vertical-scroll-proportion="-12.52">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/data/data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+        <state line="10" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/template/public/head.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/template/public/favsites.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44970414">
-          <folding>
-            <marker date="1323593611247" expanded="true" signature="536:620" placeholder="..." />
-          </folding>
+        <state line="23" column="13" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.75482625">
+          <folding />
         </state>
       </provider>
     </entry>

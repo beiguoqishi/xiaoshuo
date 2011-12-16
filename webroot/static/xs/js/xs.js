@@ -435,4 +435,48 @@
     };
 
     XS.init();
+
+    var UserTrack = (function(){
+        function scope(e,params,host){
+            var e = e || window.event,
+                target = e.target || e.srcElement,
+                params = params || {},
+                host = host || Config.UserTrackConfig.host;
+            //拷贝配置文件，params中有Config.UserTrackConfig.index相同的属性，则不进行拷贝。
+            if(typeof Config.UserTrackConfig.index != "undefined"){
+                for(var i in Config.UserTrackConfig.index){
+                    if(params[i]==undefined){
+                        params[i] = Config.UserTrackConfig.index[i];
+                    }
+                }
+            }
+
+            //判断是否为超链接
+            if(target.tagName.toUpperCase() == "A"){
+                params.tit = encodeURIComponent(target.innerHTML);
+                params.url = encodeURIComponent(target.href);
+//			for(var i in params){
+//				//赋值超链接的Href和Content
+//				params[i] = format(params[i],{url:encodeURIComponent(target.href),content:encodeURIComponent(target.innerHTML)});
+//			}
+                send(params,host);
+            }
+        }
+        function send(params,host){
+            var r = new Date().getTime(),
+                host = host || Config.UserTrackConfig.host,
+                u = "img_"+ r,
+                sParams = "";
+            for(var i in params){
+                sParams +=  i +"="+ params[i]+"&";
+            }
+            window[u] = new Image();
+            window[u].onload=window[u].onerror=function(){window[u]=null};
+            window[u].src = host+"?"+sParams+"r="+ r;
+        }
+        return {
+            scope :scope,
+            send : send
+        }
+    })();
 })();

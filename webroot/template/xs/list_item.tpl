@@ -1,7 +1,7 @@
 <%function list_item data = null%>
     <%if $data%>
-    <span class="list-item">
-    <a class="poster history-cookie" href="<%$data.url%>" title="<%$data.title%>" target="_blank">
+    <span class="list-item" id="<%$data.id%>">
+    <a class="poster history-cookie" href="<%$data.url%>" title="<%$data.title%>" target="_blank" id="poster_<%$data.id%>">
         <img src="<%$data.poster%>" title="<%$data.title%>"/>
         <span class="status-bar"></span>
         <span class="status-text"><%$data.word_count%>&nbsp;&nbsp;<%$data.status%></span>
@@ -9,11 +9,11 @@
 
     <div class="book-info">
         <h3>
-            <a href="<%$data.url%>" class="title-link history-cookie" title="<%$data.title%>" target="_blank"><%$data.title%></a>
+            <a href="<%$data.url%>" class="title-link history-cookie" id="title_<%$data.id%>" title="<%$data.title%>" target="_blank"><%$data.title%></a>
         </h3>
         <dl>
             <dt class="item-key">作者：</dt>
-            <dd class="item-value"><%$data.author%></dd>
+            <dd class="item-value"><a href="<%$data.author_url%>" target="_blank" id="<%$data.author_id%>"><%$data.author%></a></dd>
             <dd class="hr"></dd>
             <dt class="item-key">最新章节：</dt>
             <dd class="item-value"><%$data.update_status%></dd><dd class="hr"></dd>

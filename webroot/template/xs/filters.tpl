@@ -17,7 +17,7 @@
             <dt>
             <h4><%$filter.name%>:</h4>
             </dt>
-            <dd>
+            <dd id="<%$filter.id%>">
                 <%foreach $filter.items as $filter_item%>
                     <span class="filter-item">
                         <a class="<%if $root.curfilters[$filter@key] == $filter_item@key || (!$root.curfilters[$filter@key] && $filter_item@key == 'default')%>filter-cur<%/if%>" href="index.php?<%if $filter_item@key != 'default'%><%$filter@key|cmsescape:':u:h'%>=<%$filter_item@key|cmsescape:':u:h'%><%/if%><%$u_<%$filter@key%>|cmsescape:':h'%>"><%$filter_item|cmsescape:':h'%></a>
