@@ -18,7 +18,7 @@
                         <li class="recommend-item">
                             <span class="recommend-item-index"><%$recommend_item@index + 1%></span>
                             <span class="recommend-item-type">[<%$recommend_item.type%>]</span>
-                            <a href="<%$recommend_item.url%>" title="<%$recommend_item.title%>" target="_blank">
+                            <a href="<%$recommend_item.url%>" title="<%$recommend_item.title%>" target="_blank" class="<%$recommend@key%>">
                                 <%$recommend_item.title%>
                             </a>
                         </li>

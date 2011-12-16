@@ -8,25 +8,7 @@
  */
 
 $arr = array(
-//    "favsites" => array(
-//        '小说名站' => array(
-//            '起点中文网' => 'http://www.qidian.com/',
-//            '小说阅读网' => 'http://www.readnovel.com/',
-//            '红袖添香' => 'http://www.hongxiu.com/',
-//            '潇湘书院' => 'http://www.xxsy.net/',
-//            '今日小说排行榜' => 'http://top.baidu.com/buzz/book.html',
-//            '晋江文学' => 'http://www.jjwxc.net/',
-//            '言情小说吧' => 'http://www.xs8.cn/',
-//            '快眼看书' => 'http://www.booksky.org/',
-//            '幻剑书盟' => 'http://hjsm.tom.com/',
-//            '网络小说目录' => 'http://tieba.baidu.com/f?ct=536870912&rn=200&pn=0&cm=1101&tn=simpleCategory&sn=%CE%C4%D1%A7%D2%D5%CA%F5',
-//            '新浪读书' => 'http://book.sina.com.cn/',
-//            '纵横中文网' => 'http://www.zongheng.com/',
-//            '看书网' => 'http://www.kanshu.com/',
-//            '更多' => ''
-//        )
-//    ),
-    "all_favsites" => array(
+    "favsites" => array(
         '小说名站' => array(
             '起点中文网' => 'http://www.qidian.com/',
             '小说阅读网' => 'http://www.readnovel.com/',
@@ -87,8 +69,7 @@ $arr = array(
             '故事会' => 'http://www.storychina.cn/',
             '意林' => 'http://www.yilin.net.cn/',
             '新浪爱问共享' => 'http://ishare.iask.sina.com.cn/',
-            '榕树下' => 'http://www.rongshuxia.com/',
-            '收起' => ''
+            '榕树下' => 'http://www.rongshuxia.com/'
         )
     ),
     "curfilters" =>array(

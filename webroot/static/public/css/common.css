@@ -286,36 +286,31 @@ ul.search-text li a:hover {
     text-decoration: underline;
 }
 
+.favsites dd.fav-links span.align-right {
+    margin-right: 34px;
+    float: right;
+    width: 85px;
+}
+
 .favsites dd.fav-links a.operation-favsites {
     border: 1px solid #D4F0D2;
     padding: 0 0 0 23px;
     display: block;
     background-color: #FCFDFA;
     width: 54px;
+    background: url("../images/base_sprite.png") no-repeat;
 }
 
 .favsites dd.fav-links a.expand-sites {
-    background: url("../images/base_sprite.png") no-repeat 55px -671px;
+    background-position: 55px -671px;
 }
 
 .favsites dd.fav-links a.collapse-sites {
-    background: url("../images/base_sprite.png") no-repeat 55px -702px;
-}
-
-.favsites dd.fav-links span.clear-padding {
-    padding: 0;
-    width: 85px;
-    margin-top: 5px;
+    background-position: 55px -702px;
 }
 
 .favsites dd.fav-links a.operation-favsites:hover {
     background-color: #F3F9F3;
-}
-
-.favsites dd.fav-links span.align-right {
-    margin-right: 37px;
-    float: right;
-    /*width: 65px;*/
 }
 
 .show {
@@ -361,7 +356,7 @@ ul.search-text li a:hover {
 }
 
 #page .next_page,
-#page .previous_page{
+#page .previous_page {
     height: 24px;
     line-height: 26px;
     _line-height: 24px;

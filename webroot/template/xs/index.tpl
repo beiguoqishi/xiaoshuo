@@ -16,7 +16,6 @@
 <body>
 <%call banner_html%>
 <%call favsites favsites = $root.favsites%>
-<%call favsites favsites = $root.all_favsites operation_name = 'ÊÕÆð' operation_id = 'all_sites' operation_class = 'collapse-sites' display_class = 'hidden' align_right = 'align-right'%>
 <div class="wrapper clearfix">
 <%call content%>
 <%call sidebar recommends = $root.recommends%>

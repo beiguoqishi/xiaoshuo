@@ -13,7 +13,7 @@
         </h3>
         <dl>
             <dt class="item-key">作者：</dt>
-            <dd class="item-value"><a href="<%$data.author_url%>" target="_blank" id="<%$data.author_id%>"><%$data.author%></a></dd>
+            <dd class="item-value"><a href="<%$data.author_url%>" class="author-link" target="_blank" book_id="<%$data.id%>" id="author_<%$data.author_id%>"><%$data.author%></a></dd>
             <dd class="hr"></dd>
             <dt class="item-key">最新章节：</dt>
             <dd class="item-value"><%$data.update_status%></dd><dd class="hr"></dd>
