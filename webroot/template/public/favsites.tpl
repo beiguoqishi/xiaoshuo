@@ -7,7 +7,7 @@
                 <dd class="fav-links">
                     <%foreach $fav as $fav_link%>
                         <span class="fav-link <%if $fav_link@index > 12%>hidden<%/if%>">
-                                    <a href="<%$fav_link%>" target="_blank"><%$fav_link@key%></a>
+                                    <a href="<%$fav_link%>" target="_blank"><%$fav_link@key|cmsescape:':h:15':'бн'%></a>
                         </span>
                     <%/foreach%>
                     <span class="align-right ie6nimei">

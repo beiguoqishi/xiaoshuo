@@ -1,10 +1,10 @@
 <%function history%>
 <div class="history hidden" id="all_history">
         <h4>浏览记录： </h4>
-        <a class="history-tip" href="" id="clear-historys">清空记录</a>
+        <a class="history-tip" href="javascript:void(0);" id="clear-historys">清空记录</a>
         <a class="history-collapse history-switch" id="history_collapse"></a>
 
-    <ul class="history-list" id="history_list">
+    <ul class="history-list clearfix" id="history_list">
 
     </ul>
 </div>

@@ -13,6 +13,10 @@ ol, ul, li {
     list-style: none;
 }
 
+input {
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: #0053a5;
@@ -101,7 +105,7 @@ fieldset, img {
     border: 1px solid #7b7b7b;
     border-bottom-color: #b6b6b6;
     border-right: none;
-    font-size: 14px;
+    font-size: 16px;
     background: url("../images/base_sprite.png") repeat-x 0 -199px white;
 }
 
@@ -114,7 +118,6 @@ fieldset, img {
     cursor: pointer;
     font-size: 14px;
 }
-
 
 /*begin page*/
 #page {
@@ -149,7 +152,7 @@ fieldset, img {
 }
 
 #page .next_page,
-#page .previous_page{
+#page .previous_page {
     height: 24px;
     line-height: 26px;
     _line-height: 24px;

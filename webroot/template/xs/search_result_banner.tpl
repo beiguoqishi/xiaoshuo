@@ -8,9 +8,9 @@
             </h1>
         </div>
 
-        <form class="search-wrapper" action="http://www.baidu.com/s" method="get" target="_blank">
+        <form class="search-wrapper" action="/allsearch" method="get" target="_self">
             <span class="search-shadow"></span>
-            <input class="search-text" name="word"/>
+            <input class="search-text" name="q"/>
             <button type="submit" class="searchsubmit">百度一下</button>
         </form>
     </div>

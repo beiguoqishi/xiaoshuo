@@ -3,7 +3,8 @@
 <div class="sidebar">
     <div class="history show" id="one_history">
         <h4>ä¯ÀÀ¼ÇÂ¼£º</h4>
-        <a class="history-tip" href="" id="first_history"></a>
+        <a class="history-tip" id="first_history" target="_blank"></a>
+        <a class="history-tip" id="no_record" href="javascript:void(0);">ÔÝÎÞä¯ÀÀ¼ÇÂ¼</a>
         <a class="history-expand history-switch" id="history_expand"></a>
     </div>
     

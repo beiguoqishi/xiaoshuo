@@ -261,7 +261,7 @@
                     toggle(favsitesSwitch, 'collapse-sites', 'expand-sites');
                     favsitesSwitch.setAttribute('status', 'expanded');
                     favsitesSwitch.innerHTML = '收起';
-                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/ie6nimei/g,'');
+                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/ie6nimei/g, '');
                 } else {
                     Arr.forEach(this.favsiteSpans, function (item) {
                         toggle(item, that.showReg, that.hiddenClass);
@@ -269,7 +269,7 @@
                     toggle(favsitesSwitch, 'expand-sites', 'collapse-sites');
                     favsitesSwitch.setAttribute('status', 'collapse');
                     favsitesSwitch.innerHTML = '更多';
-                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/^\s+|\s+$/g,'') + ' ie6nimei';
+                    favsitesSwitch.parentNode.className = favsitesSwitch.parentNode.className.replace(/^\s+|\s+$/g, '') + ' ie6nimei';
                 }
                 preventDefault(getEvent(event));
             }, that), false);
@@ -311,13 +311,25 @@
                 that = this;
 
             addEventListener(history_expand, 'click', bind(function (event) {
-                toggle(oneHistoryContainer, this.showReg, this.hiddenClass);
-                toggle(allHistoryContainer, this.hiddenReg, this.showClass);
+                this.showAllHistory(oneHistoryContainer, allHistoryContainer);
             }, that), false);
             addEventListener(history_collapse, 'click', bind(function (event) {
-                toggle(allHistoryContainer, this.showReg, this.hiddenClass);
-                toggle(oneHistoryContainer, this.hiddenReg, this.showClass);
+                this.showOneHistory(oneHistoryContainer, allHistoryContainer);
             }, that), false);
+            addEventListener(document.body, 'mousedown', bind(function (event) {
+                this.showOneHistory(oneHistoryContainer, allHistoryContainer);
+            }, that), false);
+            addEventListener($('all_history'), 'mousedown', bind(function (event) {
+                preventDefault(event);
+            }, that), false);
+        },
+        showAllHistory:function (oneHistoryContainer, allHistoryContainer) {
+            toggle(oneHistoryContainer, this.showReg, this.hiddenClass);
+            toggle(allHistoryContainer, this.hiddenReg, this.showClass);
+        },
+        showOneHistory:function (oneHistoryContainer, allHistoryContainer) {
+            toggle(allHistoryContainer, this.showReg, this.hiddenClass);
+            toggle(oneHistoryContainer, this.hiddenReg, this.showClass);
         },
         refreshHistory:function () {
             var historyCookies = this.getHistoryValue(XS._H_XS_COOKIE),
@@ -328,7 +340,7 @@
                     for (var i = 0, len = historyCookies.length; i < len; i++) {
                         historyCookie = historyCookies[i].split(',');
 
-                        historys.push('<li class="history-item"><span class="history-index">' + (i + 1) + '</span><a class="history-title" href="' + historyCookie[1] + '" target="_blank">' + historyCookie[0] + '</a><a title="删除" class="delete-history"></a></li>')
+                        historys.push('<li class="history-item clearfix"><span class="history-index">' + (i + 1) + '</span><a class="history-title" href="' + historyCookie[1] + '" target="_blank">' + historyCookie[0] + '</a><a title="删除" href="javascript:void(0);" class="delete-history"></a></li>')
                     }
                     this.historyList.innerHTML = historys.join('');
                 }
@@ -340,21 +352,22 @@
         },
         showFirstHistory:function () {
             var firstHistory = $('first_history'),
-                historyCookies = this.getHistoryValue(XS._H_XS_COOKIE);
+                historyCookies = this.getHistoryValue(XS._H_XS_COOKIE),
+                noRecord = $('no_record');
 
             if (historyCookies) {
                 if ((historyCookies = historyCookies.split('&')).length > 0) {
+                    firstHistory.style.display = '';
                     var item = historyCookies[0].split(',');
                     firstHistory.innerHTML = item[0];
                     firstHistory.href = item[1];
-                    firstHistory.target = '_blank';
+                    noRecord.style.display = 'none';
                     return;
                 }
             }
 
-            firstHistory.innerHTML = '暂无浏览记录';
-            firstHistory.href = '';
-            delete firstHistory.target;
+            firstHistory.style.display = 'none';
+            noRecord.style.display = '';
         },
         initHistoryEvent:function () {
             var bookLinks = getElementsByClassName($('data_list'), 'history-cookie'),
@@ -365,16 +378,16 @@
                 addEventListener(item, 'click', bind(function (event) {
                     var historys = hao.xs.cookie.get(XS._H_XS_COOKIE);
                     if (typeof historys === 'string') {
-                        historys = historys.split(';');
-                        if (historys.length >= 5) {
-                            return;
-                        }
-                        if (Arr.indexOf(historys, item.title + ',' + item.href) === -1) {
-                            historys.push(item.title + ',' + item.href);
-                        }
-                        else {
-                            return;
-                        }
+                        historys = historys.split(';')[0].split('&');
+//                        if (historys.length >= 5) {
+//                            return;
+//                        }
+//                        if (Arr.indexOf(historys, item.title + ',' + item.href) === -1) {
+                        historys.unshift(item.title + ',' + item.href);
+//                        }
+//                        else {
+//                            return;
+//                        }
 
                         hao.xs.cookie.set(XS._H_XS_COOKIE, historys.join('&'), '999999999');
                     } else {
@@ -394,12 +407,12 @@
                     title = preNode.innerHTML;
                     url = preNode.href;
 
-                    var historyCookies = hao.xs.cookie.get(XS._H_XS_COOKIE).split(';');
+                    var historyCookies = this.getHistoryValue(XS._H_XS_COOKIE).split('&');
                     historyCookies.splice(Arr.indexOf(historyCookies, title + ',' + url), 1);
                     if (historyCookies.length === 0) {
                         hao.xs.cookie.del(XS._H_XS_COOKIE);
                     } else {
-                        hao.xs.cookie.set(XS._H_XS_COOKIE, historyCookies.join(';'));
+                        hao.xs.cookie.set(XS._H_XS_COOKIE, historyCookies.join('&') + ';' + this.getHistoryValuePro(XS._H_XS_COOKIE));
                     }
                     this.refreshHistory();
                 }
@@ -418,6 +431,15 @@
                 cookieValue = cookie.substring(0, index === -1 ? cookie.length : index);
             }
             return cookieValue;
+        },
+        getHistoryValuePro:function (name) {
+            var cookie = hao.xs.cookie.get(name),
+                cookiePro = null, index;
+            if (typeof cookie === 'string') {
+                index = cookie.indexOf(';');
+                cookiePro = index === -1 ? '' : cookie.substring(index);
+            }
+            return cookiePro;
         },
         initPageGoEvent:function () {
             var go = $('go'),
