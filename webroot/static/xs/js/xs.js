@@ -6,98 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 (function () {
-
-    function getElementsByClassName(el, className) {
-        if (typeof el.getElementsByClassName === 'function') {
-            return el.getElementsByClassName(className);
-        }
-        var childNodes = el.getElementsByTagName('*'),
-            resultNodes = [],
-            node;
-        for (var i = 0 , len = childNodes.length; i < len; i++) {
-            node = childNodes[i];
-            if (node.nodeType === 1) {
-                if (node.className.indexOf(className) > -1) {
-                    resultNodes.push(node);
-                }
-            }
-        }
-        return resultNodes;
-    }
-
-    var Arr = {},
-        slice = Array.prototype.slice;
-    Arr.forEach = function (array, fn) {
-        if (typeof array.forEach === 'function') {
-            array.forEach(fn);
-        }
-        else {
-            for (var i = 0, len = array.length; i < len; i++) {
-                fn(array[i], i, array);
-            }
-        }
-    };
-
-    Arr.indexOf = function (array, value) {
-        if (typeof array.indexOf === 'function') {
-            return array.indexOf(value);
-        }
-        for (var i = 0, len = array.length; i < len; i++) {
-            if (array[i] === value) {
-                return i;
-            }
-        }
-        return -1;
-    };
-
-    function $(id) {
-        return document.getElementById(id);
-    }
-
-    function toggle(el, srcReg, destStr) {
-        el.className = el.className.replace(srcReg, destStr);
-    }
-
-    function bind(fn, context) {
-        var outerArgs = slice.call(arguments, 2);
-        return function () {
-            var innerArgs = slice.call(arguments);
-            var finalArgs = innerArgs.concat(outerArgs);
-            return fn.apply(context, finalArgs);
-        }
-    }
-
-    function addEventListener(el, type, listener, capture) {
-        if (el.addEventListener) {
-            el.addEventListener(type, listener, capture);
-        }
-        else if (el.attachEvent) {
-            el.attachEvent('on' + type, listener);
-        }
-        else {
-            el['on' + type] = listener;
-        }
-    }
-
-    function getEvent(event) {
-        return event ? event : window.event;
-    }
-
-    function getTarget(event) {
-        return event.target || event.srcElement;
-    }
-
-    function preventDefault(event) {
-        if (event.preventDefault) {
-            event.preventDefault();
-            event.stopPropagation();
-        }
-        else {
-            event.returnValue = false;
-            event.cancelBubble = true;
-        }
-    }
-
     /**
      * cookie²Ù×÷
      */
@@ -297,6 +205,7 @@
                             searchArgArr.push('<input type="hidden" name="' + searchArgMap[0] + '" value = "' + searchArgMap[1] + '"/>');
                         }
                         searchForm.action = target.href;
+                        searchForm.setAttribute('search_des', target.getAttribute('search_des'));
                         searchArgsContainer.innerHTML = searchArgArr.join('');
                     }
                 }
@@ -320,7 +229,7 @@
                 this.showOneHistory(oneHistoryContainer, allHistoryContainer);
             }, that), false);
             addEventListener($('all_history'), 'mousedown', bind(function (event) {
-                preventDefault(event);
+                preventDefault(getEvent(event));
             }, that), false);
         },
         showAllHistory:function (oneHistoryContainer, allHistoryContainer) {
@@ -379,15 +288,15 @@
                     var historys = hao.xs.cookie.get(XS._H_XS_COOKIE);
                     if (typeof historys === 'string') {
                         historys = historys.split(';')[0].split('&');
-//                        if (historys.length >= 5) {
-//                            return;
-//                        }
-//                        if (Arr.indexOf(historys, item.title + ',' + item.href) === -1) {
-                        historys.unshift(item.title + ',' + item.href);
-//                        }
-//                        else {
-//                            return;
-//                        }
+                        if (historys.length >= 5) {
+                            return;
+                        }
+                        if (Arr.indexOf(historys, item.title + ',' + item.href) === -1) {
+                            historys.unshift(item.title + ',' + item.href);
+                        }
+                        else {
+                            return;
+                        }
 
                         hao.xs.cookie.set(XS._H_XS_COOKIE, historys.join('&'), '999999999');
                     } else {

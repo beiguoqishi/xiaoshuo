@@ -21,7 +21,8 @@
 <%call sidebar recommends = $root.recommends%>
 </div>
 <%include file="public/footer.tpl"%>
-<%call xsjs jses = ['static/xs/js/xs.js']%>
+<%call xsjs jses = ['static/xs/js/common.js','static/xs/js/xs.js','static/xs/js/header.js']%>
+<script id="sug_result_script" type="text/javascript"></script>
 <%if $smarty.get.firebuglite == 'true'%>
 <script src="https://getfirebug.com/firebug-lite.js"></script>
 <%/if%>

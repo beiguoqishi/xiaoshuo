@@ -205,6 +205,7 @@ ul.search-text li a:hover {
     position: relative;
     clear: left;
     float: left;
+    z-index: 998;
 }
 
 .baidu-search-con .search-wrapper .search-shadow {
@@ -244,6 +245,33 @@ ul.search-text li a:hover {
     cursor: pointer;
     font-size: 14px;
     padding-left: 5px;
+}
+
+.baidu-search-con .search-wrapper .sug-result {
+    position: absolute;
+    left: 0;
+    top: 27px;
+    border: 1px solid #817F82;
+    width: 347px;
+    font-size: 16px;
+    z-index: 999;
+    background: white;
+    white-space: nowrap;
+}
+
+.baidu-search-con .search-wrapper .sug-result .sug-result-list {
+    cursor: default;
+    font: bold 16px/21px verdana;
+}
+
+.baidu-search-con .search-wrapper .sug-result .sug-result-list li {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 8px;
+}
+
+.baidu-search-con .search-wrapper .sug-result .sug-result-list li.sug-item-over {
+    background: #E2EAFF;
 }
 
 /*begin√˚’æµº∫Ω*/
