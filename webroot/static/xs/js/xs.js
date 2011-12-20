@@ -148,7 +148,6 @@
             for (var i = 13, len = array.length; i < len; i++) {
                 this.favsiteSpans.push(array[i]);
             }
-            this.searchItemSwitch();
             this.favsitesSwitch();
             this.initHistoryEvent();
             this.historySwitch();
@@ -182,35 +181,6 @@
                 preventDefault(getEvent(event));
             }, that), false);
 
-        },
-        searchItemSwitch:function () {
-            var searchNav = $('search_list'),
-                searchArgsContainer = $('search_args'),
-                searchForm = $('baidu_search_form'),
-                that = this;
-            addEventListener(searchNav, 'click', bind(function (event) {
-                var target = getTarget(getEvent(event)),
-                    searchArgMaps, searchArgMap, searchArgArr = [], i, len;
-                if (target && target.nodeType && target.nodeName.toLowerCase() === 'a') {
-                    var li = target.parentNode;
-                    if (!li.className.match(/\bselected\b/)) {
-                        Arr.forEach(searchNav.getElementsByTagName('li'), function (item) {
-                            toggle(item, /\bselected\b/, '');
-                        });
-
-                        li.className = li.className.replace(/^\s+|\s+$/g, '') + ' selected';
-                        searchArgMaps = target.search.slice(1).split('&');
-                        for (i = 0, len = searchArgMaps.length; i < len; i++) {
-                            searchArgMap = searchArgMaps[i].split('=');
-                            searchArgArr.push('<input type="hidden" name="' + searchArgMap[0] + '" value = "' + searchArgMap[1] + '"/>');
-                        }
-                        searchForm.action = target.href;
-                        searchForm.setAttribute('search_des', target.getAttribute('search_des'));
-                        searchArgsContainer.innerHTML = searchArgArr.join('');
-                    }
-                }
-                preventDefault(getEvent(event));
-            }, that), false);
         },
         historySwitch:function () {
             var allHistoryContainer = $('all_history'),

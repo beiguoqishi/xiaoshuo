@@ -43,6 +43,11 @@ fieldset, img {
     zoom: 1;
 }
 
+.l-w {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .head-bar {
     color: #666;
     font-size: 12px;
